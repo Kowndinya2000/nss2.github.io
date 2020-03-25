@@ -37,13 +37,17 @@
 				document.getElementById('page-training').innerHTML = '<iframe src="../animated-headline/index-init.html" frameborder="0" style="width: 30%;height: 8rem;margin-top: 1rem;margin-left: 35%;"></iframe><iframe src="../initiatives/demo/index.html" frameborder="0" style="width: 100%;height: 70rem;"></iframe>'
 			}, 500);
 		}
+		function f2()
+		{
+			document.getElementById('page-docu').innerHTML = '<iframe src="../upcoming/index.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>';
+		}
 	</script>
 </head>
 
 <body>
 	<nav class="pages-nav">
 		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
-		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">Upcoming Events</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-docu" onclick="f2()">Upcoming Events</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-manuals">Events</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-software">Profile</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-custom">Departments</a></div>
@@ -60,11 +64,10 @@
 	</nav>
 	<div class="pages-stack">
 		<div class="page" id="page-home" style="background: #fff;">
-			<iframe src="../product-tour2/index.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>	
+			<iframe src="../working/nav.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>	
 		</div>
 		<div class="page" id="page-docu" style="background: #fff;">
-			<iframe src="../upcoming/index.html" frameborder="0" style="width: 100%;height: 100%;"></iframe>	
-			
+					
 		</div>
 		<div class="page" id="page-manuals" style="background: #fff;">
 			<iframe src="../animated-headline/index-events.html" frameborder="0" style="width: 30%;height: 8rem;margin-top: 1rem;margin-left: 35%;"></iframe>	
